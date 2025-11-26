@@ -77,6 +77,14 @@
   border: none;
   background-color: rgb(201, 201, 201);
   margin-right: 300px;
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+#search:focus {
+  outline: none;
+  border: none;
+  background-color: rgb(209, 209, 209);
 }
 
 .headerfirsthalf {
@@ -274,6 +282,12 @@ button:hover {
 .likedislike {
   width: 20px;
   height: 30px;
+}
+
+.likedislike:hover,
+#bell:hover,
+#search-icon:hover {
+  cursor: pointer;
 }
 
 .trendingicon {
